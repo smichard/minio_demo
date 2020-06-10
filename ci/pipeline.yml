@@ -11,7 +11,7 @@ resources:
   type: git
   icon: git
   source:
-    uri: https://github.com/smichard/s3_demo.git
+    uri: https://github.com/smichard/minio_demo.git
     branch: master
   check_every: 60s
 
