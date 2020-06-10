@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: smichard/alpine_git
+
+inputs:
+- name: resource-src
+- name: input
+
+outputs:
+- name: file
+
+run:
+  path: ./resource-src/ci/save_to_storage.sh
