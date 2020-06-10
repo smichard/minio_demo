@@ -21,7 +21,7 @@ resources:
   source:
     endpoint: http://192.168.178.49:9000
     bucket: releases
-    regexp: release_history/(.*)-(.*).tar.gz
+    regexp: (.*)-(.*).tar.gz
     access_key_id: admin
     secret_access_key: admin123
 
